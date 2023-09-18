@@ -1,0 +1,6 @@
+!pip install dirsync
+import dirsync
+from dirsync import sync
+source = "/Users/vicky/Desktop/F1" #source folder path name
+target = "/Users/vicky/Desktop/F2" #target folder path name
+dirsync.sync(source, target, 'sync', verbose=True)
